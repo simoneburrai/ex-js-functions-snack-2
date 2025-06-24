@@ -15,17 +15,15 @@
 
 function contoAllaRovescia(num){
     intervalId = setInterval(()=>{
-        console.log(num);
-        num--;
-        if(num===0){
+        if(num>0){
+            console.log(num);
+            num--;
+        }else if(num === 0){
+            console.log(num)
             console.log("Tempo Scaduto");
-            ;
-        } 
+             clearInterval(intervalId)
+        }
     }, 1_000);
-    setTimeout(()=>{
-        clearInterval(intervalId)
-    }, num*1000)
-    
 }
 
-contoAllaRovescia(4);
+contoAllaRovescia(10);
