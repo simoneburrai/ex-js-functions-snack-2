@@ -14,7 +14,3 @@ function startAndStop(message, startTime, endTime){
 }
 
 startAndStop("Questo è il messagio", 1_000, 2_000)
-
-
-//Dubbi sul funzionamento "si deve fermare dopo il tempo di stop"
-//Lo startTime deve essere anche l'intervallo o no?
