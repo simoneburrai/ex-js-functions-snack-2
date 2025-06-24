@@ -1,0 +1,23 @@
+{
+  "name": "ex-js-functions-snack-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev1": "node --watch snack-1.js",
+    "dev2": "node --watch snack-2.js",
+    "dev3": "node --watch snack-3.js",
+    "dev4": "node --watch snack-4.js",
+    "dev5": "node --watch snack-5.js",
+    "dev6": "node --watch snack-6.js",
+    "dev7": "node --watch snack-7.js",
+    "dev8": "node --watch snack-8.js",
+    "dev9": "node --watch snack-9.js",
+    "dev10": "node --watch snack-10.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
